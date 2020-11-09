@@ -1,0 +1,606 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    position: fixed;
+    background-color: #171819;
+    height: 100px;
+    width: 100%;
+    z-index: 3;
+}
+.header.container {
+    
+    width:1170px;
+    position: relative;
+}
+
+.header .container .navbar ul  
+{
+    list-style: none;
+    width: 100%;
+}
+.header .container h2 
+{
+    top:5px;
+    left: 150px;
+    position: absolute;
+    text-transform: uppercase;
+    color:#EEE;
+}
+.header .container .navbar ul li
+{
+    
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 400px;
+    font-size:20px;
+    text-transform: uppercase;
+    cursor:pointer;
+    color:#EEE;
+}
+.header .container .navbar ul li:hover{
+    color:#f00;
+}
+
+.header .icons
+{
+    float:right;
+    position: relative;
+    top:-65px;
+    right: 350px;
+}
+.header .icons img
+{
+    margin-left: 20px;
+    cursor:pointer;
+}
+.clear{
+    clear: both;
+}
+.slider
+{
+   
+    background-image: url(../images/hero-bg.jpg);
+    height: 1100px;
+    
+}
+
+.slider .container2 
+{
+    padding:0px; 
+    margin:0px;
+    color:#bbb;
+    font-size: 35px;
+    font-family:cursive;
+    position:absolute; 
+    top:300px; 
+    left:700px;
+    
+}
+.slider .container2 h1
+{
+    color:#fff;
+    font-family: monospace;
+}
+.slider .container2 button 
+{
+    padding:10px;
+    margin:10px;
+    background:none;
+    border:0;
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+    cursor: pointer;
+}
+#learnMore{
+        color:red;
+    border:3px solid #ce3a11;
+}
+.container3 .right p,.container3 .right h3,.container3 .right h1{
+    
+    padding:0px;
+    margin: 0px;
+}
+.container3 
+{
+    background-color:#000;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.container3 .right {
+    height: 600px;
+    width:590px;
+    color:#FFF;
+    font-size:20px;
+    padding: 20px;
+    position:relative;
+    left:500px;
+    line-height: 40px;
+}
+.container3 .right h1,.container3 .left h1 {text-transform: uppercase;margin-top: 40px;}
+.container3 .right h3{margin-top: 30px;} 
+.container3 .right p {margin-top: 30px;color:#bbb;font-size:20px;}
+
+.container3 .right  button 
+{
+    padding:15px;
+    width:200px;
+    margin-top:50px; 
+    color:#fff;
+    font-size: 23px;
+    margin-top: 40px;
+    background-color: darkorange;
+    cursor:pointer; 
+    
+}
+.container3 .right  button:hover{
+    background-color: #fff;;
+    color:darkorange;
+}
+
+.container3 .right .line 
+{
+    
+    border-left:3px solid #bbb;
+    height: 400px;
+    float:right;
+    position: absolute;
+    left: 650px;
+    top:80px;
+}
+.container3 .left
+{
+    float:right;
+    color:#FFF;
+    position: relative;
+    top:-620px;
+    right: 350px;
+}
+
+.container3 .left h3
+{
+    font-size: 24px;
+}
+.container3 .left p 
+{
+    color:#bbb;
+}
+.container4 
+{
+    background-color: #eee;
+    height: 700px;
+    position: relative;
+}
+.container4 .right
+{
+    width:35%;
+    position: relative; 
+    left:250px;
+    top:160px;
+}
+.container4 .right h2 ,.container4 .right p {
+    padding:0px; 
+    margin: 0px;
+}
+.container4 .right h2 
+{
+    text-transform: capitalize; 
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 40px;
+    
+}
+.container4 .right p
+{
+    font-size: 24px;
+    color:#aaa;
+    text-align: justify;
+}
+.container4 .left {
+    height: 100%;
+}
+.container4 .left .first
+{
+    height: 100%;
+}
+.container4 .left .first img:first-child {
+    width:400px; 
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 30px;
+    left:1000px;
+    
+}
+.container4 .left .first > div 
+{
+     position: absolute;
+    left:1000px;
+    top: 428px;
+    background-color: #FFF;
+    width: 400px;
+    
+
+
+}
+.container4 .left .first > div p
+{
+    font-size:26px;
+    padding:5px;
+    font-weight: bold;
+}
+.container4 .left .first > div img
+{
+    position: absolute;
+    top:40px;
+    left: 350px;
+    cursor: pointer;
+    
+}
+.container4 .left .first > div img:last-of-type
+{
+    position: absolute;
+    top:100px;
+    left: 350px;
+    
+}
+
+
+.container4 .left .second img:first-child {
+    width:400px; 
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 30px;
+    left:1430px;
+    
+}
+.container4 .left .second > div 
+{
+     position: absolute;
+    left:1430px;
+    top: 428px;
+    background-color: #FFF;
+    width: 400px;
+    
+
+
+}
+.container4 .left .second > div p
+{
+    font-size:26px;
+    padding:5px;
+    font-weight: bold;
+}
+.container4 .left .second > div img
+{
+    position: absolute;
+    top:40px;
+    left: 350px;
+    cursor: pointer;
+    
+}
+.container4 .left .second > div img:last-of-type
+{
+    position: absolute;
+    top:100px;
+    left: 350px;
+    
+}
+.container5 h1,.container5 h2,.container5 p{
+    padding: 0px; 
+    margin: 0px; 
+}
+.container5 {
+    background-color: #ddd;
+    height:870px;
+    position: relative;
+}
+.container5 .first img {
+    width:450px; 
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.container5 .first >div {
+    background-color: #fff;
+    width:430px;
+    position: relative;
+    left: 296px;
+    height: 230px;
+     padding-left: 20px;
+
+}
+.container5 .first >div h2
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    color:black;
+    text-align: left;
+}
+.container5 .first >div p
+{
+    width:70%;
+    color:#bbb;
+    font-size: 25px;
+    padding-top:20px
+    
+}
+.container5 h2,.container5 h1{
+    text-align: center;
+    color:#FFF;
+    padding-top: 50px;
+    font-size: 30px;
+    color:#eee;
+    
+}
+.container5 h1{
+    font-size: 40px;
+    color:black;
+}
+.container5 .first >div span
+{
+    width:70px;
+    height:70px; 
+    border-radius: 50%;
+    background-color: darkorange;
+    position: absolute;
+    top:40px; 
+    right:30px;
+    font-size: 40px;
+    text-align:center;
+    
+    
+}
+/* second */
+
+.container5 .second img {
+    width:450px; 
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+    position: absolute;
+    top:175px;
+    left: 500px;
+}
+.container5 .second >div {
+    background-color: #fff;
+    width:430px;
+    position: relative;
+    left: 400px;
+    height: 230px;
+    padding-left: 20px;
+    position: absolute;
+    top:575px;
+    left: 795px;;
+
+}
+.container5 .second >div h2
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    color:black;
+    text-align: left;
+
+    
+}
+.container5 .second >div p
+{
+    width:70%;
+    color:#bbb;
+    font-size: 25px;
+    padding-top:20px
+    
+}
+
+
+.container5 .second >div span
+{
+    width:70px;
+    height:70px; 
+    border-radius: 50%;
+    background-color: darkorange;
+    position: absolute;
+    top:40px; 
+    right:30px;
+    font-size: 40px;
+    text-align:center;
+    
+    
+}
+/* third */
+.container5 .third img {
+    width:450px; 
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+    position: absolute;
+    top:175px;
+    left: 1000px;
+}
+.container5 .third > div {
+    background-color: #fff;
+    width:430px;
+    height: 230px;
+    padding-left: 20px;
+    position: absolute;
+    top:575px;
+    left: 1297;
+
+}
+.container5 .third >div h2
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    color:black;
+    text-align: left;
+
+    
+}
+.container5 .third >div p
+{
+    width:70%;
+    color:#bbb;
+    font-size: 25px;
+    padding-top:20px
+    
+}
+
+
+.container5 .third >div span
+{
+    width:70px;
+    height:70px; 
+    border-radius: 50%;
+    background-color: darkorange;
+    position: absolute;
+    top:40px; 
+    right:30px;
+    font-size: 40px;
+    text-align:center;
+    
+    
+}
+.container6
+{
+    background-color:#000;
+    height:800px;
+}
+.container6 h2 {
+    
+    padding:0px; 
+    margin:0px;
+    text-align: center;
+    color:#fff;
+    padding-top: 150px;
+    text-transform: capitalize;
+    color:#bbb;
+    
+}
+.container6 h1{
+    color:#FFF;
+    text-align: center; 
+    padding-top:20px;
+    font-size:50px;
+    font-weight: bold;
+}
+.container6 table {
+    margin-left: 500px;
+}
+.container6 table th {
+    
+     width:150px;
+    height: 75px;
+    color: white;
+    background-color: #F13A11;
+    font-size: 25px;
+}
+.container6 table td {
+   color: white;
+    border-right: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    
+}
+.container6 table span {
+    
+    font-size: 15px;
+    color: #555555;
+}
+
+.container7 {
+    background-color: #eee;
+    height: 520px;
+}
+#close{
+    border:none;
+    background-color: #EEE;
+    opacity: 1;
+    color:black;
+    width:0px;
+    position: relative;
+    top:-90px;
+    left:400px;
+    
+    display: none;
+    
+}
+ label {
+    font-size: 35px; 
+     margin-top: 40px;
+     margin-left: 10px;
+     font-weight: bold;
+    
+}
+.container7 .right form button 
+{
+    padding:10px;
+    font-size:25px;
+    margin-left: 10px;
+    color:#fff;
+    width:300px; 
+    background-color: #000;
+    cursor: pointer;
+}
+.container7 .right form button:hover
+{
+    background-color:darkgoldenrod;
+}
+
+.container7 .right form input , .container7 .right form textarea {
+    display: block;
+    margin: 18px;
+    padding:25px;
+    width:450px;
+}
+.container7 .right {
+    
+     margin-left: 400px;
+    padding-top: 100px;
+}
+.container7 .left  {
+    position: relative;
+    top:-470px;
+    left:1000px;
+    z-index: 1;
+}
+.container7 .left h2 {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 35px;
+}
+footer p 
+{
+    margin:0px; 
+    padding:0px;
+}
+
+footer {
+    background-color: #CCC;
+    
+    
+}
+footer p {
+    text-align: center; 
+    font-size: 20px;
+    font-weight: bold; 
+    color:darkcyan;
+}
+.memeber {
+    position: absolute; 
+    top: 1047.5;
+    background-color: #EEE;
+    
+}
+
+
