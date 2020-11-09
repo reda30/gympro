@@ -1,3 +1,5 @@
+
+// please try to use es6
 var a = document.querySelectorAll(".header .container .navbar ul li"); 
 
 a[0].onclick = function (){
